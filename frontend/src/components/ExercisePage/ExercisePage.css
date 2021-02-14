@@ -1,0 +1,51 @@
+@import '../../index.css'
+
+a {
+    color: whitesmoke;
+}
+ 
+.left-side {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
+    gap: 10px 0px;
+    grid-template-areas:
+    "exercise"
+    "buttons"
+    "hint";
+    grid-area: left-side;
+    background-color: teal;
+ }
+
+ .exercise {
+    grid-area: exercise;
+    background-color: brown;
+ }
+
+ .buttons {
+    grid-area: buttons;
+    background-color: forestgreen;
+ }
+
+ .hint {
+    grid-area: hint;
+    background-color: honeydew;
+ }
+
+ .right-side {
+     grid-area: right-side;
+     background-color: violet;
+ }
+
+ .editor-window {
+
+ }
+
+ .splitscreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 15px;
+    grid-template-areas:
+      "left-side right-side";
+ }

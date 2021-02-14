@@ -1,0 +1,31 @@
+{
+  "name": "cottagecode",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sequelize": "sequelize",
+    "sequelize-cli": "sequelize-cli",
+    "start": "per-env",
+    "start:development": "nodemon -r dotenv/config ./bin/www",
+    "start:production": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "per-env": "^1.0.2",
+    "pg": "^8.5.1",
+    "sequelize": "^5.22.3",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^4.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
