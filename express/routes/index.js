@@ -5,9 +5,6 @@ router.get(/^(?!\/?api).*/, (req, res) => {
   res.send('Hello World!');
 });;
 
-const apiRouter = require('./api');
-
-router.use('/api', apiRouter);
 
 // Static routes
 // Serve React build files in production
