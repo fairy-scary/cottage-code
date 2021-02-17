@@ -14,31 +14,27 @@ a {
     "buttons"
     "hint";
     grid-area: left-side;
-    background-color: teal;
+    padding: 20px 0px 0px 20px;
  }
 
  .exercise {
     grid-area: exercise;
-    background-color: brown;
  }
 
  .buttons {
     grid-area: buttons;
-    background-color: forestgreen;
  }
 
  .hint {
     grid-area: hint;
-    background-color: honeydew;
  }
 
  .right-side {
      grid-area: right-side;
-     background-color: violet;
  }
 
  .editor-window {
-
+   align-content: center;
  }
 
  .splitscreen {
@@ -48,4 +44,9 @@ a {
     gap: 0px 15px;
     grid-template-areas:
       "left-side right-side";
+ }
+
+ .code-editor {
+    width: auto;
+    margin: 0px;
  }
