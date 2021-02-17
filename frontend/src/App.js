@@ -1,10 +1,9 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import ExercisePage from "./components/ExercisePage";
 
 function App() {
   return (
-    <BrowserRouter>
     <div className="App">
       <Switch>
         <Route exact path="/">
@@ -15,7 +14,6 @@ function App() {
         </Route>
       </Switch>
     </div>
-    </BrowserRouter>
   );
 }
 
