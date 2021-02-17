@@ -5,7 +5,7 @@ const router = express.Router();
 // router.use('/api', apiRouter);
 
 // Serve the static assets in the frontend's build folder
-router.use(express.static(path.resolve("../frontend/build")));
+router.use(express.static(path.resolve("../frontend/public")));
 
 // Static routes
 // Serve React build files in production
