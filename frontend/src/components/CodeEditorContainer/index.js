@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../CodeEditor/CodeEditor.css';
-import CodeEditor from '../CodeEditor';
+import CodeEditor from '../CodeEditor'; 
 
 function CodeEditorContainer() {
 
